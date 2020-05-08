@@ -1,0 +1,30 @@
+.container{
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr;
+    justify-content: center;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px,auto);
+}
+
+.red{
+    background-color: red;
+    color:white;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+.yellow{
+    background-color: yellow;
+    color:white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.blue{
+    background-color: blue;
+    color:white;
+    font-size: large;
+    cursor: pointer;
+}
